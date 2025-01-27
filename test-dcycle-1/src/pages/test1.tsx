@@ -1,6 +1,6 @@
 import { fetchData } from "api/fetchData";
 import Error from "components/error";
-import Results from "components/results";
+import Results from "components/results/results";
 import { useState } from "react";
 import { IoMdSearch } from "react-icons/io";
 
@@ -45,7 +45,7 @@ function Test1(){
             className="border-gray-300 border-solid border rounded-md p-2"
             value={name} 
             onKeyUp={(e) => {
-              if (e.key == "Enter") {
+              if (e.key === "Enter") {
                 getResults()
                 .then((res) => { res && setResults(res)})
               }

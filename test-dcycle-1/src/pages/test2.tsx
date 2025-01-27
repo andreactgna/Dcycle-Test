@@ -129,6 +129,7 @@ function Test2() {
     <>
       <div className="text-2xl md:text-3xl text-center tracking-wide font-roboto">COVID TRACKING</div>
       {!error &&
+        !loading ?
         <div className="w-4/3 md:w-3/4 m-auto">
           <div className="align justify-between">
             <div className="text-lg md:text-2xl tracking-wide font-roboto">
@@ -221,7 +222,8 @@ function Test2() {
                 } />
             }
           </div>
-        </div>}
+        </div>
+        : <div className="centered h-56"><div className="loader" /></div>}
       {error &&
         <div className="h-96 bg-white centered rounded-md shadow-sm mt-4 m-auto">
           <Error />

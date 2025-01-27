@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import CountryFlag from "./countryFlag"
+import CountryFlag from "../countryFlag"
 import { IoMdFemale, IoMdMale, IoMdHappy  } from "react-icons/io";
 
 interface Props {
