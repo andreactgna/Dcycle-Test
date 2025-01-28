@@ -54,7 +54,7 @@ Una vez que el backend esté activo, abre una nueva terminal y ejecuta:
 
 La aplicación se ejecutará en: http://localhost:3000.
 
-## ⚙️ What I've used
+## ⚙️ Tecnologías utilizadas
 
 * [React.js](https://reactjs.org/)
 * [Typescript](https://www.typescriptlang.org/)
