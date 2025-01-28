@@ -65,6 +65,7 @@ La aplicación se ejecutará en: http://localhost:3000.
 
 ## 🏛️ Estructura del Proyecto
 
+```
 📂 src
 │── 📂 api           # Contiene las funciones para realizar llamadas a la API.
 │── 📂 components    # Contiene los componentes reutilizables en toda la aplicación.
@@ -78,7 +79,7 @@ La aplicación se ejecutará en: http://localhost:3000.
 ├── package.json   
 ├── tsconfig.json  
 └── README.md      
-
+```
 
 ## 📝 Notas
 
