@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 🌀 Dcycle Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Hola! 👋  
 
-## Available Scripts
+Este proyecto es una demostración de mis habilidades, siguiendo las pautas establecidas en el ejercicio. 
 
-In the project directory, you can run:
 
-### `npm start`
+## 👣 Flujo de la Aplicación  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La aplicación cuenta con **2 vistas principales**:  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Test 1:**  
+  - Solicita al usuario su nombre y, tras enviarlo, obtiene y muestra:  
+    - **Género más probable** y su porcentaje de certeza.  
+    - **Nacionalidades probables**, acompañadas de su bandera y su probabilidad.  
+    - **Edad estimada** basada en el nombre ingresado.  
 
-### `npm test`
+- **Test 2:**  
+  - Muestra información histórica sobre **COVID-19 en EE.UU. por día**, incluyendo:  
+    - 📊 **Casos confirmados**.  
+    - 🏥 **Pruebas realizadas**.  
+    - ☠️ **Muertes registradas**.  
+    - 📈 **Gráficos interactivos** para visualizar tendencias durante los años.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠 Configuración  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para clonar el proyecto, ejecuta:  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    $ git clone https://github.com/andreactgna/test-dcycle.git .
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏄 Cómo ejecutar el proyecto
 
-### `npm run eject`
+    npm install && npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+La aplicación se ejecutará en: http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ What I've used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [React.js](https://reactjs.org/)
+* [Typescript](https://www.typescriptlang.org/)
+* [React Router](https://reactrouter.com/)
+* [Tailwind](https://v2.tailwindcss.com/)
+* [Jest](https://jestjs.io/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 🏛️ Estructura del Proyecto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📂 src
+│── 📂 api           # Contiene las funciones para realizar llamadas a la API.
+│── 📂 components    # Contiene los componentes reutilizables en toda la aplicación.
+│── 📂 layout        # Define la estructura general de la aplicación, incluyendo encabezados, barras laterales y contenedores.
+│── 📂 pages         # Contiene las páginas principales de la aplicación, cada una representando una vista.
+│── global.d.ts       # Define los tipos globales y modelos utilizados en la aplicación.
+│── App.tsx           # Maneja las rutas y la navegación.
+│── index.tsx         
+├── .gitignore     
+├── package.json   
+├── tsconfig.json  
+└── README.md      
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 📝 Notas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✅ Se ha implementado manejo de errores en caso de que la API no responda correctamente.
 
-### Analyzing the Bundle Size
+✅ Se ha añadido un indicador de carga (loading) para mejorar la experiencia del usuario durante las solicitudes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✅ La estructura del proyecto sigue el principio de **Separation of Concerns**, organizando el código de manera modular según su responsabilidad.
 
-### Making a Progressive Web App
+## 🚧 Mejoras y Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- \[ ] Implementar testing modular para verificar el correcto funcionamiento del flujo.
+- \[ ] Separar aún más las acciones y lógica en archivos individuales.
+- \[ ] Refinar la estructura del proyecto para mejorar la escalabilidad si este crece.
+- \[ ] Dividir los componentes en unidades más pequeñas y reutilizables.
+  
+## ⭐️ Conclusión
 
-### Advanced Configuration
+¡Muchas gracias por la oportunidad! 🙇‍♀️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ha sido un placer participar en este proceso y demostrar mis habilidades.
+Estoy abierta a cualquier sugerencia, feedback o comentarios para mejorar aún más. 🚀✨
