@@ -68,6 +68,7 @@ La aplicación se ejecutará en: http://localhost:3000.
 📂 src
 │── 📂 api           # Contiene las funciones para realizar llamadas a la API.
 │── 📂 components    # Contiene los componentes reutilizables en toda la aplicación.
+│── 📂 hooks         # Contiene la lógica para el funcionamiento de las paginas principales
 │── 📂 layout        # Define la estructura general de la aplicación, incluyendo encabezados, barras laterales y contenedores.
 │── 📂 pages         # Contiene las páginas principales de la aplicación, cada una representando una vista.
 │── global.d.ts       # Define los tipos globales y modelos utilizados en la aplicación.
@@ -89,10 +90,10 @@ La aplicación se ejecutará en: http://localhost:3000.
 
 ## 🚧 Mejoras y Roadmap
 
-- \[ ] Implementar testing modular para verificar el correcto funcionamiento del flujo.
-- \[ ] Separar aún más las acciones y lógica en archivos individuales.
+- \[ ] Implementar testing modular para verificar el correcto funcionamiento del flujo de las páginas.
 - \[ ] Refinar la estructura del proyecto para mejorar la escalabilidad si este crece.
 - \[ ] Dividir los componentes en unidades más pequeñas y reutilizables.
+- \[ ] Mejor uso de etiquetas semánticas para mejorar la accesibilidad y compatibilidad con lectores de pantalla.
   
 ## ⭐️ Conclusión
 
