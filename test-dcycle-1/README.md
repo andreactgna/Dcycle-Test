@@ -28,11 +28,29 @@ La aplicación cuenta con **2 vistas principales**:
 
 Para clonar el proyecto, ejecuta:  
 
-    $ git clone https://github.com/andreactgna/test-dcycle.git .
+    $ git clone https://github.com/andreactgna/test-dcycle.git 
 
 ## 🏄 Cómo ejecutar el proyecto
 
+Este proyecto cuenta con **un backend y un frontend**. Para que la aplicación funcione correctamente, primero debes iniciar el backend y luego ejecutar el frontend.  
+
+### **1️⃣ Iniciar el Backend**  
+Antes de correr la aplicación, asegúrate de que el servidor backend esté en ejecución:  
+
+```sh
+cd test-dcycle 
+npm install && npm start 
+
+```
+El backend estará corriendo en: http://localhost:3200.
+
+### **2️⃣ Iniciar el Frontend**  
+Una vez que el backend esté activo, abre una nueva terminal y ejecuta:  
+
+```sh
+    cd test-dcycle-1
     npm install && npm start
+```
 
 La aplicación se ejecutará en: http://localhost:3000.
 
